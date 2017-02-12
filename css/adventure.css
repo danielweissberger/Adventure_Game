@@ -1,0 +1,93 @@
+
+body{
+    background-image:url('../images/forest.jpg');
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    zoom:.8;
+}
+
+.clickable{
+	cursor:pointer;
+}
+
+.hidden{
+   visibility:hidden;
+}
+
+.shadowed{
+ -webkit-box-shadow: 3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+		 box-shadow:         3px 3px 23px 0px rgba(50, 50, 50, 0.75);	
+}
+.greeting-text{
+text-align:center;
+}
+.choice-box{
+	display: inline-block;
+    border-radius: 3px;
+    padding: 20px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    position: absolute !important;
+    background-color:#FFD6A8;
+}
+.situation-text{
+    display:block;
+}
+.name-text{
+    display: inline-block;
+}
+
+
+
+
+.option-select{
+	padding:5px 300px;
+	margin: 0 5px;
+	display:block;
+	background-color:#00FF7F;
+	vertical-align: bottom;
+}
+
+
+
+.situation-text-holder{
+	text-align: center;
+	display: block;
+}
+
+#coins{
+    font-size:30px;
+    color:green;
+    font-weight:bold;
+    font-family:helvetica;
+    display:block;
+
+}
+
+#life{
+    font-size:30px;
+    color:green;
+    font-weight:bold;
+    font-family:helvetica;
+    display:inline-block;
+}
+
+#alert{
+    font-size:30px;
+    color:red;
+    font-weight:bold;
+    font-family:helvetica;
+    display:inline-block;
+    margin-left:120px;
+    height:20px;
+    width:auto;
+}
+
+.copyright{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 5px;
+}
