@@ -86,7 +86,7 @@ def index():
 def start():
     username = request.POST.get("user")
     current_adv_id = request.POST.get("adventure_id")
-    print(current_adv_id)
+
     with connection.cursor() as cursor:
 
         sql = "SELECT id, user_name FROM users"
@@ -267,7 +267,7 @@ def images(filename):
 
 def main():
     #run(host='0.0.0.0', port=argv[1]) # - RUN ON HEROKU, COMMENT TO RUN LOCALLY
-    run(host='localhost',port=6979)  #-- UNCOMMENT THIS TO RUN LOCALLY
+    run(host='localhost',port=7000)  #-- UNCOMMENT THIS TO RUN LOCALLY
 
 if __name__ == '__main__':
     main()
